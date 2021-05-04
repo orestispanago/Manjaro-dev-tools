@@ -57,4 +57,10 @@ Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/spotify_spot
 
 Download [tarball](https://www.meso-star.com/projects/solstice/downloads/Solstice-0.9.0-GNU-Linux64.tar.gz)
 
-Manjaro does not use bash by default, so you need to replace ```realpath $BASH_SOURCE``` with ```realpath $0```.
+Manjaro does not use bash by default, so you need to replace ```realpath $BASH_SOURCE``` with ```realpath $0``` in ```solstice.profile``` file.
+
+Then you may add e.g:
+
+```source /home/orestis/Programs/Solstice/etc/solstice.profile```
+
+in your ```~/.zshrc``` file.
