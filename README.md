@@ -53,3 +53,8 @@ Add ```--force-device-scale-factor=2.0``` (or 1.5 or whatever scale factor you w
 Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/spotify_spotify.desktop /snap/bin/spotify --force-device-scale-factor=2.0 %U
 ```
 
+#### Solstice
+
+Download [tarball](https://www.meso-star.com/projects/solstice/downloads/Solstice-0.9.0-GNU-Linux64.tar.gz)
+
+Manjaro does not use bash by default, so you need to replace ```realpath $BASH_SOURCE``` with ```realpath $0```.
