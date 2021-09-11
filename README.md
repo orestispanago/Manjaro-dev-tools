@@ -13,17 +13,23 @@ sudo pacman -S bluez bluez-utils blueman
 Then scan, pair and connect using the ```bluetoothctl``` [command](https://wiki.archlinux.org/title/Bluetooth#Pairing).
 The keyboard can now be paired from the GUI if deleted.
 
-### Anydesk
-Enable AUR support in pamac. Anydesk is in the repo.
+### AUR packages
+Enable AUR support in pamac GUI.
 
-### gitkraken
-Install from pamac (not the standalone version).
+#### MySQL workbench
+Install from pamac GUI
+
+#### Telegram
+Install from pamac GUI
+
+### Anydesk
+Install from pamac GUI (AUR)
+
+### Gitkraken
+Install from pamac (not the standalone version). (AUR)
 
 #### VSCode + Platformio
-The open source version installed using pacman does not support platformio. Use snap instead.
-```
-snap install code --classic
-```
+Install ```visual-studio-code-bin``` from pamac GUI (AUR)
 
 Install udev.rules so that platformio stops complaining (yellow warning in terminal). Documented [here](https://docs.platformio.org/en/latest/faq.html#platformio-udev-rules).
 
@@ -45,16 +51,6 @@ sudo usermod -a -G lock $USER
 ```
 Reboot for the user group changes to take effect.
 
-#### MySQL workbench
-Install from pamac (GUI)
-
-#### Telegram
-Install from pamac (GUI)
-
-#### Gitkraken
-```
-snap install gitkraken --classic
-```
 #### Spotify
 ```
 snap install spotify
