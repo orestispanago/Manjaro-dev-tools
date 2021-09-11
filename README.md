@@ -4,6 +4,21 @@ Notes on setting up a my dev tools. Used in Manjaro 21 with Gnome 3.38.4
 
 If you have a HDPI screen, you may want to set the resolution to 3200x1800(16:9), instead of changing the scale. (Just like Ubuntu)
 
+### Logitech K380 bluetooth keyboard
+If keyboard cannot be found from the GUI:
+
+```
+sudo pacman -S bluez bluez-utils blueman
+```
+Then scan, pair and connect using the ```bluetoothctl``` [command](https://wiki.archlinux.org/title/Bluetooth#Pairing).
+The keyboard can now be paired from the GUI if deleted.
+
+### Anydesk
+Enable AUR support in pamac. Anydesk is in the repo.
+
+### gitkraken
+Install from pamac (not the standalone version).
+
 #### VSCode + Platformio
 The open source version installed using pacman does not support platformio. Use snap instead.
 ```
