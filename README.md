@@ -75,3 +75,14 @@ Then you may add e.g:
 ```source /home/orestis/Programs/Solstice/etc/solstice.profile```
 
 in your ```~/.zshrc``` file.
+
+#### fd
+
+Fast and user-friendly alternative to find, see [here](https://github.com/sharkdp/fd)
+```pacman -S fd --noconfirm```
+
+#### zsh-z
+
+Quick navigation to frequently used folders
+
+Use ```zsh-z.sh``` script to install.
