@@ -13,6 +13,23 @@ sudo pacman -S bluez bluez-utils blueman
 Then scan, pair and connect using the ```bluetoothctl``` [command](https://wiki.archlinux.org/title/Bluetooth#Pairing).
 The keyboard can now be paired from the GUI if deleted.
 
+#### snap
+
+Make sure snap is installed and enabled on your system. Follow the instructions [here](https://snapcraft.io/docs/installing-snap-on-manjaro-linux).
+
+If you get ``` classic confinement requires snaps under /snap or symlink from /snap to /var/lib/snapd/snap``` error create this symlink:
+
+```
+sudo ln -s /var/lib/snapd/snap /snap
+
+```
+
+Optional: hide the snap directory:
+
+```
+echo snap >> ~/.hidden
+```
+
 ### AUR packages
 Enable AUR support in pamac GUI.
 

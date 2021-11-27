@@ -67,3 +67,5 @@ If they are required in your app, you may:
 
 conda activate base && spyder
 "
+# If spyder fails to launch after sucessfully installed due to pyqtwebengine error, 
+# install the library using pip : pip install pyqtwebengine
