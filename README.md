@@ -36,6 +36,12 @@ Enable AUR support in pamac GUI.
 #### MySQL workbench
 Install from pamac GUI
 
+On KDE you may get this error:
+
+```the name org.freedesktop.secrets was not provided by any .service files``` when trying to connect to a database.
+
+Install ```gnome-keyring``` from pamac GUI and when prompted for gnome-keyring password leave fields empty.
+
 #### Telegram
 Install from pamac GUI
 
@@ -103,3 +109,16 @@ Fast and user-friendly alternative to find, see [here](https://github.com/sharkd
 Quick navigation to frequently used folders
 
 Use ```zsh-z.sh``` script to install.
+
+
+#### Latex
+
+In order to edit and preview .tex documents in VSCode, install the [Latex Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension .
+
+It requires a .tex compiler like texlive:
+
+```sudo pacman -S texlive-most```
+
+And texlive-latexindent-meta from AUR. Install from pamac GUI
+
+Found instructions [here](https://gist.github.com/niklaskeerl/c66ca62e11907be01f13ef780e313403)
